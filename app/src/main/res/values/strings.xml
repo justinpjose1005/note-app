@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Internshala Notes App</string>
+    <string name="empty_text">We don\'t have any <u>notes</u>\nPress the button below\nTo add a note</string>
+    <string name="login_text">Welcome,\n\nTo <h5><b><u>Sign-in</u></b></h5> you have to click the button below.</string>
+</resources>

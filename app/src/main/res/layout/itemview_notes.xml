@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/item"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center_vertical"
+    android:background="@drawable/item_bg"
+    android:layout_margin="12dp"
+    android:paddingStart="12dp"
+    android:layout_height="56dp">
+
+    <TextView
+        android:id="@+id/notes_title"
+        android:textSize="16sp"
+        android:includeFontPadding="false"
+        android:fontFamily="@font/montserrat_medium"
+        android:textColor="@color/font"
+        android:text="Notes Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginTop="4dp"
+        android:id="@+id/notes_time"
+        android:textSize="12sp"
+        android:includeFontPadding="false"
+        android:fontFamily="@font/montserrat_medium"
+        android:textColor="@color/font"
+        android:text="Last Modified: 12:00PM 12/05/2021"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
